@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodify - Music Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="#3B82F6"/>
+                    <path d="M20 10C14.5 10 10 14.5 10 20C10 25.5 14.5 30 20 30C25.5 30 30 25.5 30 20C30 14.5 25.5 10 20 10ZM24.5 24.5C24.25 24.75 24 24.75 23.75 24.5C21.25 22.75 18 22.25 14 23.25C13.75 23.25 13.5 23.25 13.25 23C13 22.75 13 22.25 13.25 22C13.5 21.75 14 21.75 14.25 22C18.75 21 22.25 21.5 25 23.5C25.5 23.75 25.5 24.25 24.5 24.5ZM25.75 21.75C25.5 22 25 22 24.75 21.75C21.75 19.75 17.25 19 14 20C13.75 20 13.25 20 13 19.75C12.75 19.5 12.75 19 13 18.75C13.25 18.5 13.75 18.5 14 18.75C17.75 17.75 22.5 18.5 26 20.75C26.25 21 26.25 21.5 25.75 21.75ZM26 19C25.75 19.25 25.25 19.25 25 19C21.5 16.75 15.75 16.25 13 17.5C12.75 17.5 12.25 17.5 12 17.25C11.75 17 11.75 16.5 12 16.25C12.25 16 12.75 16 13 16.25C16.25 15 22.25 15.5 26.25 18C26.5 18 26.5 18.75 26 19Z" fill="white"/>
+                </svg>
+                <h2>Melodify</h2>
+            </div>
+            
+            <div class="navigation">
+                <div class="nav-item active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-search"></i>
+                    <span>Search</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-bookmark"></i>
+                    <span>Your Library</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-plus-square"></i>
+                    <span>Create Playlist</span>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-heart"></i>
+                    <span>Liked Songs</span>
+                </div>
+            </div>
+            
+            <div class="playlist-section">
+                <h3>Playlists</h3>
+                <div class="playlist-item">MICRODOSIS</div>
+                <div class="playlist-item">Vibras de noche II</div>
+                <div class="playlist-item">Boys Dont't cry</div>
+                <div class="playlist-item">SAYONARA</div>
+                <div class="playlist-item">crybaby</div>
+                <div class="playlist-item">Dañado</div>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Artists, songs, or podcasts">
+                </div>
+                <div class="user-profile">
+                    <img src="resources/diaz.jpg" alt="Profile">
+                    <span>Andres</span>
+                </div>
+            </div>
+            
+            <div class="featured">
+                <div class="featured-header">
+                    <div class="featured-title">Your Top Mixes</div>
+                    <div class="show-all">Mostrar más</div>
+                </div>
+                <div class="featured-content">
+                    <div class="card">
+                        <img src="resources/dosis.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Sobredosis</div>
+                        <div class="card-subtitle">Sobresdylan</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/noche.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Vibras de Noche</div>
+                        <div class="card-subtitle">Eslabon Armado</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/euphanasia.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Euphanasia</div>
+                        <div class="card-subtitle">Buhodermia 夜 </div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/vida.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Vida</div>
+                        <div class="card-subtitle">Canserbero</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/trans.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Transiciones</div>
+                        <div class="card-subtitle">Ed Maverick</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/atrevido.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Atrevido</div>
+                        <div class="card-subtitle">Trueno</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/542.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">542</div>
+                        <div class="card-subtitle">C.R.O</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recommended">
+                <div class="featured-header">
+                    <div class="featured-title">Recently Played</div>
+                    <div class="show-all">Mostrar más</div>
+                </div>
+                <div class="featured-content">
+                    <div class="card">
+                        <img src="resources/20.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">A Mis 20</div>
+                        <div class="card-subtitle">Natanael Cano</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/naz.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">De Moda</div>
+                        <div class="card-subtitle">Yng Naz</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/kbron.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">3MEN2KBRON</div>
+                        <div class="card-subtitle">Eladio Carrion</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/feli.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Felicilandia</div>
+                        <div class="card-subtitle">Alvaro Diaz</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/boy.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Certified Lover Boy</div>
+                        <div class="card-subtitle">Drake</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/ysy.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">YSYSMO</div>
+                        <div class="card-subtitle">YSY A</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/nosta.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">NOSTALGIA</div>
+                        <div class="card-subtitle">Eslabon Armado</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recommended">
+                <div class="featured-header">
+                    <div class="featured-title">Made For You</div>
+                    <div class="show-all">Mostrar más</div>
+                </div>
+                <div class="featured-content">
+                    <div class="card">
+                        <img src="resources/luther.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">luther (with sza)</div>
+                        <div class="card-subtitle">Kendrick Lamar</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/x100pre.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Otra Noche En Miami</div>
+                        <div class="card-subtitle">Bad bunny</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/arca.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Infeliz</div>
+                        <div class="card-subtitle">Arcángel</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/tatto.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Tatuajes - Deluxe</div>
+                        <div class="card-subtitle">Iván Cornejo</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/mora.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">badtrip:(</div>
+                        <div class="card-subtitle">Iván Cornejo</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/tyler.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">Tomorrow</div>
+                        <div class="card-subtitle">Tyler, The creator</div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/sayonara.jpeg" alt="Album Cover" class="card-img">
+                        <div class="card-title">JPN</div>
+                        <div class="card-subtitle">Alvaro Diaz</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Player Bar -->
+    <div class="player-bar">
+        <div class="now-playing">
+            <img src="resources/lights.jpeg" alt="Now Playing">
+            <div class="song-info">
+                <div class="song-name">Blinding Lights</div>
+                <div class="artist">The Weeknd</div>
+            </div>
+            <i class="far fa-heart"></i>
+        </div>
+        
+        <div class="controls">
+            <div class="control-buttons">
+                <button class="control-button"><i class="fas fa-random"></i></button>
+                <button class="control-button"><i class="fas fa-step-backward"></i></button>
+                <button class="play-button"><i class="fas fa-play"></i></button>
+                <button class="control-button"><i class="fas fa-step-forward"></i></button>
+                <button class="control-button"><i class="fas fa-redo"></i></button>
+            </div>
+            <div class="progress-bar">
+                <div class="time">1:23</div>
+                <div class="progress">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="time">3:45</div>
+            </div>
+        </div>
+        
+        <div class="volume-controls">
+            <i class="fas fa-volume-up volume-icon"></i>
+            <div class="volume-bar">
+                <div class="volume-fill"></div>
+            </div>
+        </div>
+    </div>
+    <div class="controls">
+        <div class="control-buttons">
+            <button class="control-button"><i class="fas fa-random"></i></button>
+            <button class="control-button"><i class="fas fa-step-backward"></i></button>
+            <button id="playPauseButton" class="play-button"><i class="fas fa-play"></i></button>
+            <button class="control-button"><i class="fas fa-step-forward"></i></button>
+            <button class="control-button"><i class="fas fa-redo"></i></button>
+        </div>
+       
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
